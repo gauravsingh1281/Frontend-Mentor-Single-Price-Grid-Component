@@ -23,7 +23,7 @@ body {
   width: 510px;
 }
 h1,
-h3,
+.trial-p,
 h2,
 .price,
 .btn {
@@ -33,17 +33,18 @@ h2,
 p {
   font-weight: 400;
 }
-h1 {
-  color: var(--Cyan);
-}
-h3 {
-  color: var(--Bright-Yellow);
-}
-.first-sec p {
+.first-sec-p {
   color: var(--Grayish-Blue);
   font-size: 14px;
   line-height: 20px;
 }
+h1 {
+  color: var(--Cyan);
+}
+.trial-p {
+  color: var(--Bright-Yellow);
+}
+
 .first-sec {
   background-color: #fff;
   padding: 28px 20px;
@@ -90,8 +91,11 @@ h2 {
 .div1-p {
   margin: 19px 0;
 }
-.div2-p {
-  width: 78%;
+.div2-list {
+  list-style: none;
+  color: #fff;
+  font-size: 14px;
+  line-height: 20px;
 }
 .div2 {
   opacity: 0.7;
